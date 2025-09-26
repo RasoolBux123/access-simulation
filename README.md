@@ -31,7 +31,7 @@ The simulation rules ensure access is only granted if:
 ## Features
 
 - Load employee requests from MySQL.  
-- Simulate access and save results to database.  
+- Simulate access and save results to the database.  
 - Dynamically display results in a table.  
 - Color-coded decisions:  
   - **Green** → GRANTED  
@@ -46,15 +46,12 @@ The simulation rules ensure access is only granted if:
 - FastAPI  
 - MySQL  
 
+**Run Commad**
+uvicorn main:app --reload
 
 
 **Frontend:**  
 - HTML/CSS/JS (Vanilla)  
-
- 
-venv\Scripts\activate   active the virtual enviroemnt
-**Run commad**
-uvicorn main:app --reload
 
 **Database:**  
 - MySQL  
@@ -67,6 +64,5 @@ uvicorn main:app --reload
 1. **Clone repository**
 
 ```bash
-git clone https://github.com/yourusername/access-simulation.git
+git https://github.com/RasoolBux123/access_simulation.git
 cd access-simulation
-git checkout dev
